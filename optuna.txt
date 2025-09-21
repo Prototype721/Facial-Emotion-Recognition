@@ -1,0 +1,1643 @@
+
+[100/290] loss = 1.9605  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.1333 | Time: 273.7550s
+[200/290] loss = 1.9408  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.1796 | Time: 271.2916s
+Epo 1: accuracy = 0.1200 | f1_micro = 0.1200 | f1_macro = 0.1111 |
+Epo test  1: accuracy = 0.1933 | f1_micro = 0.1933 | f1_macro = 0.1300 |
+              precision    recall  f1-score   support
+
+       angry       0.18      0.22      0.19       152
+     disgust       0.08      0.05      0.06        63
+        fear       0.04      0.33      0.07        46
+       happy       0.26      0.15      0.19       248
+         sad       0.13      0.10      0.11       134
+    surprise       0.10      0.02      0.03       144
+     neutral       0.37      0.31      0.33       430
+
+    accuracy                           0.19      1217
+   macro avg       0.16      0.17      0.14      1217
+weighted avg       0.24      0.19      0.20      1217
+
+
+[100/290] loss = 1.9305  | accuracy = 0.1250 | f1_micro = 0.1250 | f1_macro = 0.0884 | Time: 272.5117s
+[200/290] loss = 1.9610  | accuracy = 0.1250 | f1_micro = 0.1250 | f1_macro = 0.1143 | Time: 271.8453s
+Epo 2: accuracy = 0.2067 | f1_micro = 0.2067 | f1_macro = 0.1869 |
+Epo test  2: accuracy = 0.2135 | f1_micro = 0.2135 | f1_macro = 0.1450 |
+              precision    recall  f1-score   support
+
+       angry       0.17      0.16      0.16       152
+     disgust       0.08      0.05      0.06        63
+        fear       0.06      0.46      0.10        46
+       happy       0.32      0.24      0.27       248
+         sad       0.14      0.11      0.12       134
+    surprise       0.17      0.05      0.08       144
+     neutral       0.37      0.28      0.32       430
+
+    accuracy                           0.21      1217
+   macro avg       0.19      0.19      0.16      1217
+weighted avg       0.26      0.21      0.22      1217
+
+
+[100/290] loss = 1.9658  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.1619 | Time: 273.0038s
+[200/290] loss = 1.9448  | accuracy = 0.0625 | f1_micro = 0.0625 | f1_macro = 0.0408 | Time: 272.2276s
+Epo 3: accuracy = 0.1667 | f1_micro = 0.1667 | f1_macro = 0.1498 |
+Epo test  3: accuracy = 0.2157 | f1_micro = 0.2157 | f1_macro = 0.1740 |
+              precision    recall  f1-score   support
+
+       angry       0.19      0.26      0.22       152
+     disgust       0.06      0.05      0.05        63
+        fear       0.05      0.35      0.09        46
+       happy       0.36      0.24      0.29       248
+         sad       0.10      0.10      0.10       134
+    surprise       0.13      0.06      0.08       144
+     neutral       0.39      0.25      0.31       430
+
+    accuracy                           0.20      1217
+   macro avg       0.18      0.19      0.16      1217
+weighted avg       0.27      0.20      0.22      1217
+
+
+[100/290] loss = 1.9348  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.2388 | Time: 272.9508s
+[200/290] loss = 1.9434  | accuracy = 0.1250 | f1_micro = 0.1250 | f1_macro = 0.0816 | Time: 272.0899s
+Epo 4: accuracy = 0.2000 | f1_micro = 0.2000 | f1_macro = 0.1850 |
+Epo test  4: accuracy = 0.2360 | f1_micro = 0.2360 | f1_macro = 0.1682 |
+              precision    recall  f1-score   support
+
+       angry       0.17      0.18      0.18       152
+     disgust       0.08      0.06      0.07        63
+        fear       0.05      0.35      0.09        46
+       happy       0.39      0.27      0.32       248
+         sad       0.13      0.13      0.13       134
+    surprise       0.14      0.06      0.08       144
+     neutral       0.37      0.31      0.34       430
+
+    accuracy                           0.22      1217
+   macro avg       0.19      0.19      0.17      1217
+weighted avg       0.27      0.22      0.24      1217
+
+
+[I 2025-09-13 08:41:41,256] Trial 0 finished with value: 0.23595505617977527 and parameters: {'lr_layer4': 3.6462845680466267e-06, 'wd_layer4': 4.0793901824015806e-08, 'lr_rnn': 1.6365869114348767e-06, 'lr_clf': 1.132952469669292e-05, 'weight_decay': 1.3065626871986484e-05, 'rnn_hidden': 128}. Best is trial 0 with value: 0.23595505617977527.
+
+[100/290] loss = 2.0173  | accuracy = 0.0625 | f1_micro = 0.0625 | f1_macro = 0.0317 | Time: 332.8824s
+[200/290] loss = 2.0032  | accuracy = 0.0625 | f1_micro = 0.0625 | f1_macro = 0.0408 | Time: 333.2313s
+Epo 1: accuracy = 0.2200 | f1_micro = 0.2200 | f1_macro = 0.1744 |
+Epo test  1: accuracy = 0.2404 | f1_micro = 0.2404 | f1_macro = 0.1246 |
+              precision    recall  f1-score   support
+
+       angry       0.06      0.01      0.02       152
+     disgust       0.08      0.24      0.11        63
+        fear       0.00      0.00      0.00        46
+       happy       0.37      0.11      0.17       248
+         sad        nan      0.00      0.00       134
+    surprise       0.10      0.26      0.15       144
+     neutral       0.36      0.45      0.40       430
+
+    accuracy                           0.23      1217
+   macro avg       0.16      0.15      0.12      1217
+weighted avg       0.25      0.23      0.20      1217
+
+
+[100/290] loss = 1.8758  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.4630 | Time: 333.7111s
+[200/290] loss = 1.9352  | accuracy = 0.1250 | f1_micro = 0.1250 | f1_macro = 0.1714 | Time: 332.5500s
+Epo 2: accuracy = 0.2067 | f1_micro = 0.2067 | f1_macro = 0.1532 |
+Epo test  2: accuracy = 0.2584 | f1_micro = 0.2584 | f1_macro = 0.1491 |
+              precision    recall  f1-score   support
+
+       angry       0.08      0.03      0.05       152
+     disgust       0.06      0.17      0.09        63
+        fear       0.14      0.02      0.04        46
+       happy       0.41      0.17      0.24       248
+         sad        nan      0.00      0.00       134
+    surprise       0.10      0.26      0.15       144
+     neutral       0.38      0.44      0.41       430
+
+    accuracy                           0.24      1217
+   macro avg       0.20      0.16      0.14      1217
+weighted avg       0.28      0.24      0.22      1217
+
+
+[100/290] loss = 1.9888  | accuracy = 0.1250 | f1_micro = 0.1250 | f1_macro = 0.0794 | Time: 334.5327s
+[200/290] loss = 1.9384  | accuracy = 0.1250 | f1_micro = 0.1250 | f1_macro = 0.0810 | Time: 332.8502s
+Epo 3: accuracy = 0.1733 | f1_micro = 0.1733 | f1_macro = 0.1443 |
+Epo test  3: accuracy = 0.2562 | f1_micro = 0.2562 | f1_macro = 0.1667 |
+              precision    recall  f1-score   support
+
+       angry       0.10      0.05      0.07       152
+     disgust       0.07      0.21      0.11        63
+        fear       0.14      0.02      0.04        46
+       happy       0.46      0.27      0.34       248
+         sad       0.00      0.00      0.00       134
+    surprise       0.11      0.27      0.16       144
+     neutral       0.37      0.39      0.38       430
+
+    accuracy                           0.24      1217
+   macro avg       0.18      0.17      0.16      1217
+weighted avg       0.26      0.24      0.24      1217
+
+
+[100/290] loss = 1.9709  | accuracy = 0.1250 | f1_micro = 0.1250 | f1_macro = 0.0635 | Time: 334.2166s
+[200/290] loss = 1.9689  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.2238 | Time: 333.0643s
+Epo 4: accuracy = 0.1600 | f1_micro = 0.1600 | f1_macro = 0.1183 |
+Epo test  4: accuracy = 0.2382 | f1_micro = 0.2382 | f1_macro = 0.1508 |
+              precision    recall  f1-score   support
+
+       angry       0.11      0.07      0.08       152
+     disgust       0.08      0.19      0.11        63
+        fear       0.17      0.02      0.04        46
+       happy       0.43      0.29      0.35       248
+         sad       0.00      0.00      0.00       134
+    surprise       0.11      0.24      0.15       144
+     neutral       0.38      0.43      0.40       430
+
+    accuracy                           0.26      1217
+   macro avg       0.18      0.18      0.16      1217
+weighted avg       0.26      0.26      0.25      1217
+
+
+[I 2025-09-13 09:51:09,722] Trial 1 finished with value: 0.23820224719101124 and parameters: {'lr_layer4': 1.2594497366718333e-07, 'wd_layer4': 4.81676794967431e-06, 'lr_rnn': 1.9281662239973046e-06, 'lr_clf': 1.8393658178591508e-05, 'weight_decay': 7.155351698108409e-05, 'rnn_hidden': 128}. Best is trial 1 with value: 0.23820224719101124.
+
+[100/290] loss = 1.7638  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.1667 | Time: 301.0442s
+[200/290] loss = 1.6154  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2653 | Time: 299.8411s
+Epo 1: accuracy = 0.4333 | f1_micro = 0.4333 | f1_macro = 0.4391 |
+Epo test  1: accuracy = 0.3371 | f1_micro = 0.3371 | f1_macro = 0.2997 |
+              precision    recall  f1-score   support
+
+       angry       0.23      0.61      0.34       152
+     disgust       0.10      0.11      0.11        63
+        fear       0.08      0.17      0.11        46
+       happy       0.79      0.59      0.68       248
+         sad       0.29      0.46      0.35       134
+    surprise       0.27      0.26      0.26       144
+     neutral       0.71      0.20      0.31       430
+
+    accuracy                           0.36      1217
+   macro avg       0.35      0.34      0.31      1217
+weighted avg       0.51      0.36      0.37      1217
+
+
+[100/290] loss = 1.4923  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.5463 | Time: 300.5962s
+[200/290] loss = 1.4416  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4304 | Time: 299.6872s
+Epo 2: accuracy = 0.5533 | f1_micro = 0.5533 | f1_macro = 0.5279 |
+Epo test  2: accuracy = 0.4157 | f1_micro = 0.4157 | f1_macro = 0.3246 |
+              precision    recall  f1-score   support
+
+       angry       0.35      0.29      0.32       152
+     disgust       0.11      0.16      0.13        63
+        fear       0.10      0.15      0.12        46
+       happy       0.60      0.76      0.67       248
+         sad       0.31      0.34      0.32       134
+    surprise       0.25      0.31      0.28       144
+     neutral       0.56      0.37      0.45       430
+
+    accuracy                           0.41      1217
+   macro avg       0.32      0.34      0.33      1217
+weighted avg       0.44      0.41      0.41      1217
+
+
+[100/290] loss = 1.2336  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.6122 | Time: 300.3047s
+[200/290] loss = 1.3130  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.4952 | Time: 299.5297s
+Epo 3: accuracy = 0.6400 | f1_micro = 0.6400 | f1_macro = 0.6321 |
+Epo test  3: accuracy = 0.4157 | f1_micro = 0.4157 | f1_macro = 0.3317 |
+              precision    recall  f1-score   support
+
+       angry       0.32      0.36      0.34       152
+     disgust       0.11      0.17      0.13        63
+        fear       0.10      0.43      0.17        46
+       happy       0.69      0.66      0.67       248
+         sad       0.28      0.19      0.23       134
+    surprise       0.25      0.20      0.22       144
+     neutral       0.60      0.43      0.50       430
+
+    accuracy                           0.40      1217
+   macro avg       0.34      0.35      0.32      1217
+weighted avg       0.46      0.40      0.42      1217
+
+
+[100/290] loss = 1.0506  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.5508 | Time: 300.8800s
+[200/290] loss = 1.2063  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.3469 | Time: 300.0586s
+Epo 4: accuracy = 0.6867 | f1_micro = 0.6867 | f1_macro = 0.6750 |
+Epo test  4: accuracy = 0.3798 | f1_micro = 0.3798 | f1_macro = 0.3108 |
+              precision    recall  f1-score   support
+
+       angry       0.36      0.33      0.34       152
+     disgust       0.12      0.37      0.18        63
+        fear       0.10      0.35      0.16        46
+       happy       0.67      0.69      0.68       248
+         sad       0.23      0.34      0.27       134
+    surprise       0.24      0.14      0.17       144
+     neutral       0.66      0.29      0.40       430
+
+    accuracy                           0.37      1217
+   macro avg       0.34      0.36      0.32      1217
+weighted avg       0.48      0.37      0.39      1217
+
+
+[I 2025-09-13 10:53:41,480] Trial 2 finished with value: 0.3797752808988764 and parameters: {'lr_layer4': 1.6462254167741172e-07, 'wd_layer4': 1.360281921183787e-06, 'lr_rnn': 0.0008545300701998049, 'lr_clf': 0.0002791585520811517, 'weight_decay': 2.749097831498841e-07, 'rnn_hidden': 256}. Best is trial 2 with value: 0.3797752808988764.
+
+[100/290] loss = 1.8497  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4111 | Time: 335.6188s
+[200/290] loss = 1.9025  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2476 | Time: 335.2232s
+Epo 1: accuracy = 0.3400 | f1_micro = 0.3400 | f1_macro = 0.3177 |
+Epo test  1: accuracy = 0.3101 | f1_micro = 0.3101 | f1_macro = 0.2469 |
+              precision    recall  f1-score   support
+
+       angry       0.27      0.22      0.24       152
+     disgust       0.09      0.17      0.12        63
+        fear       0.04      0.11      0.06        46
+       happy       0.61      0.77      0.68       248
+         sad       0.22      0.49      0.31       134
+    surprise       0.26      0.14      0.18       144
+     neutral       0.52      0.20      0.29       430
+
+    accuracy                           0.34      1217
+   macro avg       0.29      0.30      0.27      1217
+weighted avg       0.40      0.34      0.34      1217
+
+
+[100/290] loss = 1.8921  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2500 | Time: 335.3578s
+[200/290] loss = 1.6410  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.2673 | Time: 334.1450s
+Epo 2: accuracy = 0.3400 | f1_micro = 0.3400 | f1_macro = 0.3186 |
+Epo test  2: accuracy = 0.3573 | f1_micro = 0.3573 | f1_macro = 0.2883 |
+              precision    recall  f1-score   support
+
+       angry       0.29      0.34      0.31       152
+     disgust       0.06      0.16      0.09        63
+        fear       0.04      0.11      0.06        46
+       happy       0.67      0.77      0.71       248
+         sad       0.24      0.35      0.29       134
+    surprise       0.26      0.28      0.27       144
+     neutral       0.66      0.20      0.30       430
+
+    accuracy                           0.35      1217
+   macro avg       0.32      0.31      0.29      1217
+weighted avg       0.47      0.35      0.36      1217
+
+
+[100/290] loss = 1.6913  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2500 | Time: 335.3272s
+[200/290] loss = 1.6359  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.3127 | Time: 334.0023s
+Epo 3: accuracy = 0.4267 | f1_micro = 0.4267 | f1_macro = 0.4015 |
+Epo test  3: accuracy = 0.4135 | f1_micro = 0.4135 | f1_macro = 0.3506 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.43      0.35       152
+     disgust       0.12      0.17      0.14        63
+        fear       0.06      0.09      0.07        46
+       happy       0.70      0.73      0.72       248
+         sad       0.25      0.37      0.30       134
+    surprise       0.24      0.28      0.25       144
+     neutral       0.59      0.28      0.38       430
+
+    accuracy                           0.39      1217
+   macro avg       0.32      0.34      0.32      1217
+weighted avg       0.45      0.39      0.40      1217
+
+
+[100/290] loss = 1.6441  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2408 | Time: 335.4747s
+[200/290] loss = 1.5616  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.5333 | Time: 333.5289s
+Epo 4: accuracy = 0.4400 | f1_micro = 0.4400 | f1_macro = 0.4243 |
+Epo test  4: accuracy = 0.3730 | f1_micro = 0.3730 | f1_macro = 0.3114 |
+              precision    recall  f1-score   support
+
+       angry       0.29      0.34      0.31       152
+     disgust       0.12      0.16      0.14        63
+        fear       0.05      0.09      0.06        46
+       happy       0.66      0.77      0.71       248
+         sad       0.26      0.37      0.30       134
+    surprise       0.23      0.32      0.27       144
+     neutral       0.61      0.30      0.40       430
+
+    accuracy                           0.39      1217
+   macro avg       0.32      0.33      0.31      1217
+weighted avg       0.45      0.39      0.40      1217
+
+
+[I 2025-09-13 12:03:24,778] Trial 3 finished with value: 0.37303370786516854 and parameters: {'lr_layer4': 3.071229003178421e-05, 'wd_layer4': 5.042334614483574e-06, 'lr_rnn': 3.533260865121472e-05, 'lr_clf': 0.0001457007901811831, 'weight_decay': 1.5954862426173874e-06, 'rnn_hidden': 128}. Best is trial 2 with value: 0.3797752808988764.
+
+[100/290] loss = 1.6439  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.4658 | Time: 300.6778s
+[200/290] loss = 1.8081  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2194 | Time: 300.6123s
+Epo 1: accuracy = 0.3200 | f1_micro = 0.3200 | f1_macro = 0.2829 |
+Epo test  1: accuracy = 0.3483 | f1_micro = 0.3483 | f1_macro = 0.2944 |
+              precision    recall  f1-score   support
+
+       angry       0.36      0.29      0.32       152
+     disgust       0.10      0.08      0.09        63
+        fear       0.05      0.15      0.07        46
+       happy       0.64      0.75      0.69       248
+         sad       0.26      0.41      0.32       134
+    surprise       0.22      0.35      0.27       144
+     neutral       0.62      0.25      0.35       430
+
+    accuracy                           0.37      1217
+   macro avg       0.32      0.33      0.30      1217
+weighted avg       0.46      0.37      0.38      1217
+
+
+[100/290] loss = 1.7901  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.2483 | Time: 301.0882s
+[200/290] loss = 1.6651  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4435 | Time: 301.1056s
+Epo 2: accuracy = 0.5067 | f1_micro = 0.5067 | f1_macro = 0.4640 |
+Epo test  2: accuracy = 0.3685 | f1_micro = 0.3685 | f1_macro = 0.3036 |
+              precision    recall  f1-score   support
+
+       angry       0.29      0.49      0.36       152
+     disgust       0.17      0.13      0.15        63
+        fear       0.07      0.17      0.10        46
+       happy       0.68      0.72      0.70       248
+         sad       0.27      0.34      0.30       134
+    surprise       0.23      0.34      0.27       144
+     neutral       0.67      0.23      0.35       430
+
+    accuracy                           0.38      1217
+   macro avg       0.34      0.35      0.32      1217
+weighted avg       0.48      0.38      0.39      1217
+
+
+[100/290] loss = 1.5054  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.6381 | Time: 300.3260s
+[200/290] loss = 1.5309  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.4329 | Time: 299.9861s
+Epo 3: accuracy = 0.5600 | f1_micro = 0.5600 | f1_macro = 0.5316 |
+Epo test  3: accuracy = 0.3798 | f1_micro = 0.3798 | f1_macro = 0.3011 |
+              precision    recall  f1-score   support
+
+       angry       0.29      0.39      0.33       152
+     disgust       0.12      0.14      0.13        63
+        fear       0.07      0.17      0.10        46
+       happy       0.63      0.74      0.68       248
+         sad       0.25      0.41      0.31       134
+    surprise       0.23      0.24      0.23       144
+     neutral       0.60      0.24      0.35       430
+
+    accuracy                           0.37      1217
+   macro avg       0.32      0.33      0.31      1217
+weighted avg       0.44      0.37      0.38      1217
+
+
+[100/290] loss = 1.6334  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3575 | Time: 300.2266s
+[200/290] loss = 1.5628  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4136 | Time: 299.0215s
+Epo 4: accuracy = 0.4533 | f1_micro = 0.4533 | f1_macro = 0.4233 |
+Epo test  4: accuracy = 0.3978 | f1_micro = 0.3978 | f1_macro = 0.3215 |
+              precision    recall  f1-score   support
+
+       angry       0.27      0.43      0.33       152
+     disgust       0.18      0.19      0.18        63
+        fear       0.07      0.20      0.10        46
+       happy       0.65      0.74      0.69       248
+         sad       0.28      0.30      0.29       134
+    surprise       0.22      0.25      0.23       144
+     neutral       0.64      0.26      0.37       430
+
+    accuracy                           0.38      1217
+   macro avg       0.33      0.34      0.31      1217
+weighted avg       0.46      0.38      0.39      1217
+
+
+[I 2025-09-13 14:33:06,118] Trial 6 finished with value: 0.39775280898876403 and parameters: {'lr_layer4': 1.0022804174290916e-07, 'wd_layer4': 1.7289406423434472e-07, 'lr_rnn': 0.00017503248549115475, 'lr_clf': 1.3921676071118714e-05, 'weight_decay': 1.861747436270242e-07, 'rnn_hidden': 256}. Best is trial 6 with value: 0.39775280898876403.
+
+[100/290] loss = 1.7693  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4119 | Time: 334.2040s
+[200/290] loss = 1.6699  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.3429 | Time: 333.6507s
+Epo 1: accuracy = 0.3467 | f1_micro = 0.3467 | f1_macro = 0.3308 |
+Epo test  1: accuracy = 0.3079 | f1_micro = 0.3079 | f1_macro = 0.2521 |
+              precision    recall  f1-score   support
+
+       angry       0.31      0.26      0.28       152
+     disgust       0.11      0.13      0.12        63
+        fear       0.06      0.17      0.09        46
+       happy       0.64      0.75      0.69       248
+         sad       0.23      0.44      0.30       134
+    surprise       0.20      0.33      0.25       144
+     neutral       0.75      0.15      0.25       430
+
+    accuracy                           0.34      1217
+   macro avg       0.33      0.32      0.28      1217
+weighted avg       0.49      0.34      0.33      1217
+
+
+[100/290] loss = 1.6457  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.5758 | Time: 334.5141s
+[200/290] loss = 1.6344  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.2801 | Time: 333.0129s
+Epo 2: accuracy = 0.3867 | f1_micro = 0.3867 | f1_macro = 0.3617 |
+Epo test  2: accuracy = 0.3416 | f1_micro = 0.3416 | f1_macro = 0.2731 |
+              precision    recall  f1-score   support
+
+       angry       0.34      0.33      0.33       152
+     disgust       0.11      0.10      0.10        63
+        fear       0.08      0.30      0.12        46
+       happy       0.67      0.74      0.70       248
+         sad       0.25      0.48      0.33       134
+    surprise       0.26      0.22      0.24       144
+     neutral       0.61      0.26      0.36       430
+
+    accuracy                           0.38      1217
+   macro avg       0.33      0.35      0.31      1217
+weighted avg       0.46      0.38      0.39      1217
+
+
+[100/290] loss = 1.3075  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.5286 | Time: 333.9251s
+[200/290] loss = 1.5143  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.4786 | Time: 333.3877s
+Epo 3: accuracy = 0.4733 | f1_micro = 0.4733 | f1_macro = 0.4372 |
+Epo test  3: accuracy = 0.3753 | f1_micro = 0.3753 | f1_macro = 0.3202 |
+              precision    recall  f1-score   support
+
+       angry       0.32      0.26      0.28       152
+     disgust       0.10      0.30      0.15        63
+        fear       0.08      0.30      0.13        46
+       happy       0.66      0.70      0.68       248
+         sad       0.29      0.26      0.27       134
+    surprise       0.26      0.28      0.27       144
+     neutral       0.64      0.27      0.38       430
+
+    accuracy                           0.36      1217
+   macro avg       0.34      0.34      0.31      1217
+weighted avg       0.47      0.36      0.38      1217
+
+
+[100/290] loss = 1.1297  | accuracy = 0.7500 | f1_micro = 0.7500 | f1_macro = 0.6687 | Time: 333.8111s
+[200/290] loss = 1.2855  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.5325 | Time: 333.0138s
+Epo 4: accuracy = 0.5333 | f1_micro = 0.5333 | f1_macro = 0.5188 |
+Epo test  4: accuracy = 0.4045 | f1_micro = 0.4045 | f1_macro = 0.3349 |
+              precision    recall  f1-score   support
+
+       angry       0.32      0.28      0.30       152
+     disgust       0.11      0.19      0.14        63
+        fear       0.08      0.39      0.13        46
+       happy       0.67      0.69      0.68       248
+         sad       0.28      0.27      0.27       134
+    surprise       0.28      0.22      0.24       144
+     neutral       0.60      0.34      0.44       430
+
+    accuracy                           0.38      1217
+   macro avg       0.33      0.34      0.31      1217
+weighted avg       0.46      0.38      0.40      1217
+
+
+[I 2025-09-13 15:42:36,128] Trial 7 finished with value: 0.4044943820224719 and parameters: {'lr_layer4': 7.613062032366616e-08, 'wd_layer4': 1.9183722514726035e-07, 'lr_rnn': 0.0003999100705887093, 'lr_clf': 0.0001398823325096198, 'weight_decay': 5.1876611746589335e-06, 'rnn_hidden': 128}. Best is trial 7 with value: 0.4044943820224719.
+
+
+[100/290] loss = 1.6681  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.3357 | Time: 298.8375s
+[200/290] loss = 1.4709  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.4102 | Time: 297.8278s
+Epo 1: accuracy = 0.4400 | f1_micro = 0.4400 | f1_macro = 0.4256 |
+Epo test  1: accuracy = 0.3685 | f1_micro = 0.3685 | f1_macro = 0.3198 |
+              precision    recall  f1-score   support
+
+       angry       0.41      0.16      0.23       152
+     disgust       0.10      0.11      0.11        63
+        fear       0.08      0.30      0.12        46
+       happy       0.72      0.70      0.71       248
+         sad       0.26      0.40      0.32       134
+    surprise       0.21      0.34      0.26       144
+     neutral       0.61      0.31      0.41       430
+
+    accuracy                           0.37      1217
+   macro avg       0.34      0.33      0.31      1217
+weighted avg       0.48      0.37      0.40      1217
+
+
+[100/290] loss = 1.3103  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.6611 | Time: 299.3330s
+[200/290] loss = 1.2637  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.3905 | Time: 298.2801s
+Epo 2: accuracy = 0.5867 | f1_micro = 0.5867 | f1_macro = 0.5746 |
+Epo test  2: accuracy = 0.3820 | f1_micro = 0.3820 | f1_macro = 0.3339 |
+              precision    recall  f1-score   support
+
+       angry       0.35      0.26      0.30       152
+     disgust       0.19      0.21      0.20        63
+        fear       0.09      0.37      0.14        46
+       happy       0.72      0.70      0.71       248
+         sad       0.26      0.44      0.32       134
+    surprise       0.24      0.28      0.26       144
+     neutral       0.62      0.30      0.41       430
+
+    accuracy                           0.39      1217
+   macro avg       0.35      0.36      0.33      1217
+weighted avg       0.48      0.39      0.41      1217
+
+
+[100/290] loss = 1.4205  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.6238 | Time: 300.5762s
+[200/290] loss = 1.1182  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.5197 | Time: 301.0780s
+Epo 3: accuracy = 0.6533 | f1_micro = 0.6533 | f1_macro = 0.6115 |
+Epo test  3: accuracy = 0.3753 | f1_micro = 0.3753 | f1_macro = 0.3222 |
+              precision    recall  f1-score   support
+
+       angry       0.31      0.38      0.34       152
+     disgust       0.18      0.33      0.23        63
+        fear       0.07      0.41      0.12        46
+       happy       0.68      0.66      0.67       248
+         sad       0.26      0.21      0.23       134
+    surprise       0.27      0.12      0.17       144
+     neutral       0.63      0.35      0.45       430
+
+    accuracy                           0.38      1217
+   macro avg       0.34      0.35      0.32      1217
+weighted avg       0.47      0.38      0.40      1217
+
+
+[100/290] loss = 1.2214  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.6286 | Time: 301.4582s
+[200/290] loss = 1.0153  | accuracy = 0.7500 | f1_micro = 0.7500 | f1_macro = 0.7381 | Time: 300.9242s
+Epo 4: accuracy = 0.7133 | f1_micro = 0.7133 | f1_macro = 0.6973 |
+Epo test  4: accuracy = 0.3528 | f1_micro = 0.3528 | f1_macro = 0.2991 |
+              precision    recall  f1-score   support
+
+       angry       0.27      0.45      0.33       152
+     disgust       0.18      0.33      0.24        63
+        fear       0.11      0.37      0.17        46
+       happy       0.69      0.65      0.67       248
+         sad       0.24      0.28      0.26       134
+    surprise       0.24      0.17      0.20       144
+     neutral       0.66      0.31      0.42       430
+
+    accuracy                           0.38      1217
+   macro avg       0.34      0.37      0.33      1217
+weighted avg       0.48      0.38      0.40      1217
+
+
+[I 2025-09-13 17:54:26,228] Trial 10 finished with value: 0.35280898876404493 and parameters: {'lr_layer4': 7.79123823583318e-07, 'wd_layer4': 1.0824846690378975e-08, 'lr_rnn': 0.0008660655777677641, 'lr_clf': 1.0866275724317797e-06, 'weight_decay': 1.756486892347727e-05, 'rnn_hidden': 256}. Best is trial 7 with value: 0.4044943820224719.
+
+[100/290] loss = 1.9023  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.1162 | Time: 301.3382s
+[200/290] loss = 1.5878  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.4082 | Time: 301.4742s
+Epo 1: accuracy = 0.3467 | f1_micro = 0.3467 | f1_macro = 0.2767 |
+Epo test  1: accuracy = 0.3843 | f1_micro = 0.3843 | f1_macro = 0.2848 |
+              precision    recall  f1-score   support
+
+       angry       0.27      0.32      0.30       152
+     disgust       0.08      0.08      0.08        63
+        fear       0.14      0.04      0.07        46
+       happy       0.56      0.82      0.66       248
+         sad       0.24      0.31      0.27       134
+    surprise       0.20      0.28      0.23       144
+     neutral       0.52      0.27      0.35       430
+
+    accuracy                           0.38      1217
+   macro avg       0.29      0.30      0.28      1217
+weighted avg       0.39      0.38      0.36      1217
+
+
+[100/290] loss = 1.7637  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.4007 | Time: 301.5223s
+[200/290] loss = 1.4723  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.2590 | Time: 301.4159s
+Epo 2: accuracy = 0.4333 | f1_micro = 0.4333 | f1_macro = 0.4205 |
+Epo test  2: accuracy = 0.3798 | f1_micro = 0.3798 | f1_macro = 0.2915 |
+              precision    recall  f1-score   support
+
+       angry       0.33      0.24      0.28       152
+     disgust       0.09      0.16      0.12        63
+        fear       0.05      0.07      0.06        46
+       happy       0.62      0.78      0.69       248
+         sad       0.25      0.42      0.31       134
+    surprise       0.21      0.24      0.23       144
+     neutral       0.54      0.28      0.37       430
+
+    accuracy                           0.38      1217
+   macro avg       0.30      0.31      0.29      1217
+weighted avg       0.42      0.38      0.38      1217
+
+
+[100/290] loss = 1.6828  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2289 | Time: 301.1925s
+[200/290] loss = 1.2674  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.4673 | Time: 301.2111s
+Epo 3: accuracy = 0.4467 | f1_micro = 0.4467 | f1_macro = 0.4288 |
+Epo test  3: accuracy = 0.3258 | f1_micro = 0.3258 | f1_macro = 0.2592 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.29      0.29       152
+     disgust       0.10      0.22      0.14        63
+        fear       0.05      0.07      0.06        46
+       happy       0.65      0.75      0.70       248
+         sad       0.27      0.29      0.28       134
+    surprise       0.22      0.31      0.25       144
+     neutral       0.56      0.29      0.38       430
+
+    accuracy                           0.38      1217
+   macro avg       0.31      0.32      0.30      1217
+weighted avg       0.43      0.38      0.38      1217
+
+
+[100/290] loss = 1.6071  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.5190 | Time: 301.7852s
+[200/290] loss = 1.4808  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3413 | Time: 301.7632s
+Epo 4: accuracy = 0.4600 | f1_micro = 0.4600 | f1_macro = 0.4339 |
+Epo test  4: accuracy = 0.3663 | f1_micro = 0.3663 | f1_macro = 0.3029 |
+              precision    recall  f1-score   support
+
+       angry       0.29      0.24      0.26       152
+     disgust       0.10      0.22      0.14        63
+        fear       0.05      0.11      0.07        46
+       happy       0.65      0.75      0.70       248
+         sad       0.22      0.34      0.27       134
+    surprise       0.23      0.27      0.25       144
+     neutral       0.56      0.26      0.35       430
+
+    accuracy                           0.36      1217
+   macro avg       0.30      0.31      0.29      1217
+weighted avg       0.43      0.36      0.37      1217
+
+
+[I 2025-09-13 18:57:15,050] Trial 11 finished with value: 0.36629213483146067 and parameters: {'lr_layer4': 5.6072914740696994e-08, 'wd_layer4': 8.980894832959012e-08, 'lr_rnn': 0.0001474467366083723, 'lr_clf': 4.2615244554120394e-05, 'weight_decay': 1.2174176107891712e-07, 'rnn_hidden': 256}. Best is trial 7 with value: 0.4044943820224719.
+
+[100/290] loss = 1.5681  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.4126 | Time: 301.7084s
+[200/290] loss = 1.6046  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3206 | Time: 300.8744s
+Epo 1: accuracy = 0.4600 | f1_micro = 0.4600 | f1_macro = 0.4030 |
+Epo test  1: accuracy = 0.3213 | f1_micro = 0.3213 | f1_macro = 0.2731 |
+              precision    recall  f1-score   support
+
+       angry       0.36      0.27      0.31       152
+     disgust       0.09      0.19      0.12        63
+        fear       0.07      0.24      0.10        46
+       happy       0.60      0.79      0.68       248
+         sad       0.26      0.45      0.33       134
+    surprise       0.25      0.26      0.26       144
+     neutral       0.68      0.17      0.27       430
+
+    accuracy                           0.35      1217
+   macro avg       0.33      0.34      0.30      1217
+weighted avg       0.47      0.35      0.35      1217
+
+
+[100/290] loss = 1.6223  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2024 | Time: 300.7598s
+[200/290] loss = 1.4722  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3690 | Time: 300.4738s
+Epo 2: accuracy = 0.4933 | f1_micro = 0.4933 | f1_macro = 0.4153 |
+Epo test  2: accuracy = 0.4135 | f1_micro = 0.4135 | f1_macro = 0.3039 |
+              precision    recall  f1-score   support
+
+       angry       0.34      0.40      0.37       152
+     disgust       0.17      0.17      0.17        63
+        fear       0.10      0.15      0.12        46
+       happy       0.48      0.90      0.62       248
+         sad       0.26      0.26      0.26       134
+    surprise       0.28      0.17      0.21       144
+     neutral       0.58      0.30      0.39       430
+
+    accuracy                           0.40      1217
+   macro avg       0.32      0.34      0.31      1217
+weighted avg       0.42      0.40      0.38      1217
+
+
+[100/290] loss = 1.4180  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.5143 | Time: 300.3782s
+[200/290] loss = 1.5523  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.3503 | Time: 300.5462s
+Epo 3: accuracy = 0.5200 | f1_micro = 0.5200 | f1_macro = 0.5038 |
+Epo test  3: accuracy = 0.3685 | f1_micro = 0.3685 | f1_macro = 0.3154 |
+              precision    recall  f1-score   support
+
+       angry       0.37      0.39      0.38       152
+     disgust       0.10      0.14      0.11        63
+        fear       0.08      0.26      0.12        46
+       happy       0.66      0.68      0.67       248
+         sad       0.25      0.37      0.30       134
+    surprise       0.19      0.14      0.16       144
+     neutral       0.54      0.33      0.41       430
+
+    accuracy                           0.38      1217
+   macro avg       0.31      0.33      0.31      1217
+weighted avg       0.43      0.38      0.39      1217
+
+
+[100/290] loss = 1.3793  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.4369 | Time: 301.1081s
+[200/290] loss = 1.3218  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.3367 | Time: 300.2959s
+Epo 4: accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4951 |
+Epo test  4: accuracy = 0.3708 | f1_micro = 0.3708 | f1_macro = 0.3144 |
+              precision    recall  f1-score   support
+
+       angry       0.32      0.36      0.34       152
+     disgust       0.12      0.19      0.15        63
+        fear       0.08      0.33      0.13        46
+       happy       0.67      0.69      0.68       248
+         sad       0.26      0.34      0.30       134
+    surprise       0.20      0.19      0.19       144
+     neutral       0.57      0.26      0.36       430
+
+    accuracy                           0.36      1217
+   macro avg       0.32      0.34      0.31      1217
+weighted avg       0.44      0.36      0.37      1217
+
+
+[I 2025-09-13 19:59:57,084] Trial 12 finished with value: 0.3707865168539326 and parameters: {'lr_layer4': 5.638746834537838e-07, 'wd_layer4': 5.0129031903666554e-08, 'lr_rnn': 0.00022519464364638317, 'lr_clf': 5.0632271927976405e-05, 'weight_decay': 1.0470371400537689e-05, 'rnn_hidden': 256}. Best is trial 7 with value: 0.4044943820224719.
+
+
+
+[100/290] loss = 1.9570  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.0857 | Time: 300.2506s
+[200/290] loss = 1.8531  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3286 | Time: 299.4042s
+Epo 1: accuracy = 0.3400 | f1_micro = 0.3400 | f1_macro = 0.3120 |
+Epo test  1: accuracy = 0.3730 | f1_micro = 0.3730 | f1_macro = 0.2785 |
+              precision    recall  f1-score   support
+
+       angry       0.38      0.22      0.28       152
+     disgust       0.12      0.22      0.15        63
+        fear       0.00      0.00      0.00        46
+       happy       0.53      0.83      0.65       248
+         sad       0.25      0.45      0.32       134
+    surprise       0.27      0.17      0.21       144
+     neutral       0.53      0.33      0.41       430
+
+    accuracy                           0.40      1217
+   macro avg       0.30      0.32      0.29      1217
+weighted avg       0.41      0.40      0.38      1217
+
+
+[100/290] loss = 1.6214  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3016 | Time: 300.3758s
+[200/290] loss = 1.6622  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3197 | Time: 300.0656s
+Epo 2: accuracy = 0.4200 | f1_micro = 0.4200 | f1_macro = 0.3886 |
+Epo test  2: accuracy = 0.4090 | f1_micro = 0.4090 | f1_macro = 0.3329 |
+              precision    recall  f1-score   support
+
+       angry       0.37      0.18      0.25       152
+     disgust       0.10      0.19      0.13        63
+        fear       0.10      0.22      0.13        46
+       happy       0.70      0.71      0.71       248
+         sad       0.26      0.34      0.29       134
+    surprise       0.21      0.29      0.25       144
+     neutral       0.55      0.37      0.44       430
+
+    accuracy                           0.39      1217
+   macro avg       0.33      0.33      0.31      1217
+weighted avg       0.45      0.39      0.41      1217
+
+
+[100/290] loss = 1.5732  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.1674 | Time: 299.6314s
+[200/290] loss = 1.9386  | accuracy = 0.1250 | f1_micro = 0.1250 | f1_macro = 0.1048 | Time: 298.9204s
+Epo 3: accuracy = 0.4000 | f1_micro = 0.4000 | f1_macro = 0.3613 |
+Epo test  3: accuracy = 0.3528 | f1_micro = 0.3528 | f1_macro = 0.2935 |
+              precision    recall  f1-score   support
+
+       angry       0.34      0.29      0.31       152
+     disgust       0.09      0.17      0.12        63
+        fear       0.07      0.17      0.10        46
+       happy       0.68      0.71      0.69       248
+         sad       0.26      0.38      0.31       134
+    surprise       0.19      0.32      0.24       144
+     neutral       0.63      0.25      0.35       430
+
+    accuracy                           0.36      1217
+   macro avg       0.32      0.33      0.30      1217
+weighted avg       0.46      0.36      0.38      1217
+
+
+[100/290] loss = 1.7296  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3701 | Time: 300.4301s
+[200/290] loss = 1.5231  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.5340 | Time: 299.2179s
+Epo 4: accuracy = 0.4533 | f1_micro = 0.4533 | f1_macro = 0.4580 |
+Epo test  4: accuracy = 0.3618 | f1_micro = 0.3618 | f1_macro = 0.3027 |
+              precision    recall  f1-score   support
+
+       angry       0.36      0.33      0.35       152
+     disgust       0.10      0.29      0.15        63
+        fear       0.06      0.13      0.08        46
+       happy       0.69      0.67      0.68       248
+         sad       0.28      0.31      0.29       134
+    surprise       0.19      0.31      0.24       144
+     neutral       0.63      0.24      0.35       430
+
+    accuracy                           0.36      1217
+   macro avg       0.33      0.33      0.31      1217
+weighted avg       0.47      0.36      0.38      1217
+
+
+[I 2025-09-13 22:05:01,580] Trial 15 finished with value: 0.36179775280898874 and parameters: {'lr_layer4': 2.0936053219842037e-05, 'wd_layer4': 1.6345676235922087e-07, 'lr_rnn': 7.961385698660455e-05, 'lr_clf': 1.812875798355035e-05, 'weight_decay': 6.540399301811119e-06, 'rnn_hidden': 256}. Best is trial 7 with value: 0.4044943820224719.
+
+[100/290] loss = 1.7564  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.1762 | Time: 300.3953s
+[200/290] loss = 1.5194  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3016 | Time: 299.2753s
+Epo 1: accuracy = 0.4467 | f1_micro = 0.4467 | f1_macro = 0.4216 |
+Epo test  1: accuracy = 0.3955 | f1_micro = 0.3955 | f1_macro = 0.3034 |
+              precision    recall  f1-score   support
+
+       angry       0.24      0.38      0.30       152
+     disgust       0.15      0.05      0.07        63
+        fear       0.09      0.04      0.06        46
+       happy       0.60      0.83      0.70       248
+         sad       0.30      0.25      0.28       134
+    surprise       0.21      0.42      0.28       144
+     neutral       0.63      0.29      0.40       430
+
+    accuracy                           0.40      1217
+   macro avg       0.32      0.32      0.30      1217
+weighted avg       0.44      0.40      0.39      1217
+
+
+[100/290] loss = 1.5216  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.4347 | Time: 301.2085s
+[200/290] loss = 1.8457  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3852 | Time: 299.9776s
+Epo 2: accuracy = 0.4333 | f1_micro = 0.4333 | f1_macro = 0.4186 |
+Epo test  2: accuracy = 0.3730 | f1_micro = 0.3730 | f1_macro = 0.3170 |
+              precision    recall  f1-score   support
+
+       angry       0.33      0.45      0.38       152
+     disgust       0.11      0.24      0.15        63
+        fear       0.09      0.22      0.12        46
+       happy       0.75      0.62      0.68       248
+         sad       0.27      0.42      0.33       134
+    surprise       0.23      0.22      0.22       144
+     neutral       0.64      0.29      0.40       430
+
+    accuracy                           0.38      1217
+   macro avg       0.34      0.35      0.33      1217
+weighted avg       0.49      0.38      0.40      1217
+
+
+[100/290] loss = 1.4679  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.4658 | Time: 300.7015s
+[200/290] loss = 1.1715  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.5746 | Time: 300.8122s
+Epo 3: accuracy = 0.5733 | f1_micro = 0.5733 | f1_macro = 0.5576 |
+Epo test  3: accuracy = 0.4404 | f1_micro = 0.4404 | f1_macro = 0.3629 |
+              precision    recall  f1-score   support
+
+       angry       0.41      0.27      0.33       152
+     disgust       0.14      0.16      0.15        63
+        fear       0.10      0.24      0.14        46
+       happy       0.61      0.75      0.68       248
+         sad       0.28      0.35      0.31       134
+    surprise       0.23      0.19      0.21       144
+     neutral       0.54      0.42      0.47       430
+
+    accuracy                           0.41      1217
+   macro avg       0.33      0.34      0.33      1217
+weighted avg       0.43      0.41      0.42      1217
+
+
+[100/290] loss = 1.1349  | accuracy = 0.7500 | f1_micro = 0.7500 | f1_macro = 0.7463 | Time: 300.7368s
+[200/290] loss = 1.3468  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.5463 | Time: 300.1803s
+Epo 4: accuracy = 0.5533 | f1_micro = 0.5533 | f1_macro = 0.5346 |
+Epo test  4: accuracy = 0.3753 | f1_micro = 0.3753 | f1_macro = 0.3345 |
+              precision    recall  f1-score   support
+
+       angry       0.33      0.36      0.34       152
+     disgust       0.15      0.29      0.20        63
+        fear       0.09      0.37      0.15        46
+       happy       0.69      0.65      0.67       248
+         sad       0.28      0.38      0.33       134
+    surprise       0.25      0.22      0.23       144
+     neutral       0.61      0.29      0.39       430
+
+    accuracy                           0.38      1217
+   macro avg       0.34      0.36      0.33      1217
+weighted avg       0.47      0.38      0.40      1217
+
+
+[I 2025-09-13 23:58:03,475] Trial 18 finished with value: 0.3752808988764045 and parameters: {'lr_layer4': 3.165752745531085e-07, 'wd_layer4': 1.5900938155074715e-07, 'lr_rnn': 0.00047902070790111715, 'lr_clf': 1.097336255125883e-06, 'weight_decay': 6.13011244409585e-06, 'rnn_hidden': 256}. Best is trial 7 with value: 0.4044943820224719.
+
+[100/290] loss = 1.8567  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.3075 | Time: 300.8600s
+[200/290] loss = 1.8625  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.1500 | Time: 299.8230s
+Epo 1: accuracy = 0.3200 | f1_micro = 0.3200 | f1_macro = 0.2976 |
+Epo test  1: accuracy = 0.3596 | f1_micro = 0.3596 | f1_macro = 0.2939 |
+              precision    recall  f1-score   support
+
+       angry       0.27      0.31      0.29       152
+     disgust       0.10      0.10      0.10        63
+        fear       0.08      0.24      0.12        46
+       happy       0.56      0.79      0.66       248
+         sad       0.26      0.40      0.31       134
+    surprise       0.20      0.23      0.22       144
+     neutral       0.62      0.18      0.28       430
+
+    accuracy                           0.35      1217
+   macro avg       0.30      0.32      0.28      1217
+weighted avg       0.43      0.35      0.34      1217
+
+
+[100/290] loss = 1.7632  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3939 | Time: 300.7974s
+[200/290] loss = 1.8123  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2571 | Time: 300.0702s
+Epo 2: accuracy = 0.3933 | f1_micro = 0.3933 | f1_macro = 0.3486 |
+Epo test  2: accuracy = 0.3910 | f1_micro = 0.3910 | f1_macro = 0.3006 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.27      0.28       152
+     disgust       0.08      0.10      0.09        63
+        fear       0.20      0.13      0.16        46
+       happy       0.59      0.80      0.68       248
+         sad       0.24      0.46      0.32       134
+    surprise       0.23      0.24      0.23       144
+     neutral       0.57      0.31      0.40       430
+
+    accuracy                           0.40      1217
+   macro avg       0.32      0.33      0.31      1217
+weighted avg       0.42      0.40      0.39      1217
+
+
+[100/290] loss = 1.9581  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.1286 | Time: 300.8358s
+[200/290] loss = 1.6859  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4245 | Time: 301.0563s
+Epo 3: accuracy = 0.4067 | f1_micro = 0.4067 | f1_macro = 0.3880 |
+Epo test  3: accuracy = 0.4045 | f1_micro = 0.4045 | f1_macro = 0.3308 |
+              precision    recall  f1-score   support
+
+       angry       0.34      0.30      0.32       152
+     disgust       0.09      0.19      0.12        63
+        fear       0.11      0.13      0.12        46
+       happy       0.63      0.78      0.69       248
+         sad       0.29      0.37      0.32       134
+    surprise       0.21      0.26      0.23       144
+     neutral       0.55      0.30      0.39       430
+
+    accuracy                           0.39      1217
+   macro avg       0.32      0.33      0.31      1217
+weighted avg       0.43      0.39      0.39      1217
+
+
+[100/290] loss = 1.9293  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2265 | Time: 300.9594s
+[200/290] loss = 1.7671  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2007 | Time: 300.2720s
+Epo 4: accuracy = 0.3733 | f1_micro = 0.3733 | f1_macro = 0.3715 |
+Epo test  4: accuracy = 0.3640 | f1_micro = 0.3640 | f1_macro = 0.2929 |
+              precision    recall  f1-score   support
+
+       angry       0.29      0.39      0.33       152
+     disgust       0.07      0.13      0.09        63
+        fear       0.08      0.15      0.10        46
+       happy       0.67      0.75      0.71       248
+         sad       0.26      0.37      0.30       134
+    surprise       0.23      0.25      0.24       144
+     neutral       0.60      0.25      0.35       430
+
+    accuracy                           0.37      1217
+   macro avg       0.31      0.33      0.30      1217
+weighted avg       0.44      0.37      0.38      1217
+
+
+[I 2025-09-14 01:18:09,261] Trial 20 finished with value: 0.36404494382022473 and parameters: {'lr_layer4': 8.68510952036894e-06, 'wd_layer4': 9.727184549368624e-08, 'lr_rnn': 7.360713295481883e-05, 'lr_clf': 2.4853827130735127e-05, 'weight_decay': 3.1376297644521584e-05, 'rnn_hidden': 256}. Best is trial 7 with value: 0.4044943820224719.
+
+[100/290] loss = 1.8501  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2758 | Time: 300.9859s
+[200/290] loss = 1.5766  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3667 | Time: 300.4831s
+Epo 1: accuracy = 0.5067 | f1_micro = 0.5067 | f1_macro = 0.4849 |
+Epo test  1: accuracy = 0.3798 | f1_micro = 0.3798 | f1_macro = 0.3274 |
+              precision    recall  f1-score   support
+
+       angry       0.28      0.44      0.34       152
+     disgust       0.16      0.16      0.16        63
+        fear       0.05      0.26      0.09        46
+       happy       0.73      0.69      0.71       248
+         sad       0.28      0.32      0.30       134
+    surprise       0.25      0.21      0.23       144
+     neutral       0.67      0.29      0.40       430
+
+    accuracy                           0.37      1217
+   macro avg       0.35      0.34      0.32      1217
+weighted avg       0.49      0.37      0.40      1217
+
+
+[100/290] loss = 1.2475  | accuracy = 0.7500 | f1_micro = 0.7500 | f1_macro = 0.6126 | Time: 301.2242s
+[200/290] loss = 1.2945  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.5357 | Time: 300.1838s
+Epo 2: accuracy = 0.5400 | f1_micro = 0.5400 | f1_macro = 0.5071 |
+Epo test  2: accuracy = 0.4360 | f1_micro = 0.4360 | f1_macro = 0.3686 |
+              precision    recall  f1-score   support
+
+       angry       0.26      0.62      0.37       152
+     disgust       0.15      0.21      0.17        63
+        fear       0.11      0.26      0.15        46
+       happy       0.71      0.75      0.73       248
+         sad       0.30      0.32      0.31       134
+    surprise       0.30      0.13      0.18       144
+     neutral       0.65      0.29      0.40       430
+
+    accuracy                           0.40      1217
+   macro avg       0.35      0.37      0.33      1217
+weighted avg       0.49      0.40      0.41      1217
+
+
+[100/290] loss = 0.9664  | accuracy = 0.7500 | f1_micro = 0.7500 | f1_macro = 0.6571 | Time: 300.6509s
+[200/290] loss = 1.1516  | accuracy = 0.7500 | f1_micro = 0.7500 | f1_macro = 0.7167 | Time: 299.8180s
+Epo 3: accuracy = 0.6800 | f1_micro = 0.6800 | f1_macro = 0.6730 |
+Epo test  3: accuracy = 0.3483 | f1_micro = 0.3483 | f1_macro = 0.2809 |
+              precision    recall  f1-score   support
+
+       angry       0.28      0.56      0.37       152
+     disgust       0.12      0.22      0.16        63
+        fear       0.07      0.43      0.13        46
+       happy       0.63      0.69      0.66       248
+         sad       0.27      0.24      0.25       134
+    surprise       0.26      0.04      0.07       144
+     neutral       0.75      0.19      0.30       430
+
+    accuracy                           0.34      1217
+   macro avg       0.34      0.34      0.28      1217
+weighted avg       0.50      0.34      0.34      1217
+
+
+[100/290] loss = 1.1168  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.6262 | Time: 300.9587s
+[200/290] loss = 0.8780  | accuracy = 0.7500 | f1_micro = 0.7500 | f1_macro = 0.6095 | Time: 299.4916s
+Epo 4: accuracy = 0.7400 | f1_micro = 0.7400 | f1_macro = 0.7317 |
+Epo test  4: accuracy = 0.3775 | f1_micro = 0.3775 | f1_macro = 0.3391 |
+              precision    recall  f1-score   support
+
+       angry       0.34      0.36      0.35       152
+     disgust       0.12      0.33      0.18        63
+        fear       0.09      0.37      0.15        46
+       happy       0.71      0.64      0.67       248
+         sad       0.28      0.37      0.32       134
+    surprise       0.29      0.18      0.22       144
+     neutral       0.63      0.32      0.42       430
+
+    accuracy                           0.38      1217
+   macro avg       0.35      0.37      0.33      1217
+weighted avg       0.49      0.38      0.41      1217
+
+
+[I 2025-09-14 02:20:45,408] Trial 21 finished with value: 0.3775280898876405 and parameters: {'lr_layer4': 2.1454935150034268e-07, 'wd_layer4': 1.9938597556926454e-06, 'lr_rnn': 0.0009808996958387678, 'lr_clf': 0.00025318488145358877, 'weight_decay': 2.5808502153008904e-07, 'rnn_hidden': 256}. Best is trial 7 with value: 0.4044943820224719.
+
+[100/290] loss = 1.9679  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2340 | Time: 300.9169s
+[200/290] loss = 1.3868  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.5799 | Time: 299.2725s
+Epo 1: accuracy = 0.4467 | f1_micro = 0.4467 | f1_macro = 0.4106 |
+Epo test  1: accuracy = 0.3596 | f1_micro = 0.3596 | f1_macro = 0.2987 |
+              precision    recall  f1-score   support
+
+       angry       0.31      0.34      0.32       152
+     disgust       0.12      0.06      0.08        63
+        fear       0.07      0.17      0.09        46
+       happy       0.56      0.77      0.65       248
+         sad       0.30      0.24      0.27       134
+    surprise       0.21      0.46      0.29       144
+     neutral       0.63      0.20      0.31       430
+
+    accuracy                           0.36      1217
+   macro avg       0.31      0.32      0.29      1217
+weighted avg       0.44      0.36      0.35      1217
+
+
+[100/290] loss = 1.2872  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.7150 | Time: 300.3117s
+[200/290] loss = 1.5840  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.4408 | Time: 300.2118s
+Epo 2: accuracy = 0.5467 | f1_micro = 0.5467 | f1_macro = 0.5506 |
+Epo test  2: accuracy = 0.3775 | f1_micro = 0.3775 | f1_macro = 0.3428 |
+              precision    recall  f1-score   support
+
+       angry       0.32      0.30      0.31       152
+     disgust       0.14      0.14      0.14        63
+        fear       0.06      0.46      0.11        46
+       happy       0.68      0.67      0.67       248
+         sad       0.29      0.34      0.32       134
+    surprise       0.22      0.20      0.21       144
+     neutral       0.69      0.22      0.33       430
+
+    accuracy                           0.34      1217
+   macro avg       0.34      0.33      0.30      1217
+weighted avg       0.49      0.34      0.36      1217
+
+
+[100/290] loss = 1.7517  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3554 | Time: 300.0925s
+[200/290] loss = 1.3619  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.4462 | Time: 299.7837s
+Epo 3: accuracy = 0.5933 | f1_micro = 0.5933 | f1_macro = 0.5983 |
+Epo test  3: accuracy = 0.3978 | f1_micro = 0.3978 | f1_macro = 0.3341 |
+              precision    recall  f1-score   support
+
+       angry       0.32      0.30      0.31       152
+     disgust       0.12      0.25      0.16        63
+        fear       0.11      0.20      0.14        46
+       happy       0.75      0.56      0.64       248
+         sad       0.29      0.34      0.32       134
+    surprise       0.20      0.30      0.24       144
+     neutral       0.59      0.42      0.49       430
+
+    accuracy                           0.40      1217
+   macro avg       0.34      0.34      0.33      1217
+weighted avg       0.47      0.40      0.42      1217
+
+
+[100/290] loss = 1.1659  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.6571 | Time: 301.6220s
+[200/290] loss = 1.2850  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.6548 | Time: 299.8536s
+Epo 4: accuracy = 0.6333 | f1_micro = 0.6333 | f1_macro = 0.6245 |
+Epo test  4: accuracy = 0.3303 | f1_micro = 0.3303 | f1_macro = 0.2774 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.38      0.33       152
+     disgust       0.09      0.17      0.12        63
+        fear       0.10      0.48      0.16        46
+       happy       0.66      0.66      0.66       248
+         sad       0.27      0.28      0.27       134
+    surprise       0.23      0.15      0.18       144
+     neutral       0.62      0.30      0.41       430
+
+    accuracy                           0.36      1217
+   macro avg       0.33      0.35      0.31      1217
+weighted avg       0.46      0.36      0.38      1217
+
+
+[I 2025-09-14 03:54:35,874] Trial 23 finished with value: 0.3303370786516854 and parameters: {'lr_layer4': 2.7575686713380526e-07, 'wd_layer4': 2.418544750003686e-07, 'lr_rnn': 0.0006210385421571256, 'lr_clf': 0.00039119031729662325, 'weight_decay': 1.4137432721986402e-06, 'rnn_hidden': 256}. Best is trial 7 with value: 0.4044943820224719.
+
+[100/290] loss = 1.7205  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.2698 | Time: 301.4226s
+[200/290] loss = 1.6976  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3345 | Time: 300.9251s
+Epo 1: accuracy = 0.4000 | f1_micro = 0.4000 | f1_macro = 0.3765 |
+Epo test  1: accuracy = 0.4202 | f1_micro = 0.4202 | f1_macro = 0.3316 |
+              precision    recall  f1-score   support
+
+       angry       0.34      0.23      0.27       152
+     disgust       0.09      0.13      0.11        63
+        fear       0.12      0.13      0.13        46
+       happy       0.68      0.73      0.70       248
+         sad       0.32      0.22      0.26       134
+    surprise       0.21      0.33      0.25       144
+     neutral       0.53      0.47      0.50       430
+
+    accuracy                           0.42      1217
+   macro avg       0.33      0.32      0.32      1217
+weighted avg       0.44      0.42      0.42      1217
+
+
+[100/290] loss = 1.6058  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4127 | Time: 300.0936s
+[200/290] loss = 1.7495  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2143 | Time: 300.0174s
+Epo 2: accuracy = 0.4800 | f1_micro = 0.4800 | f1_macro = 0.4519 |
+Epo test  2: accuracy = 0.3775 | f1_micro = 0.3775 | f1_macro = 0.3026 |
+              precision    recall  f1-score   support
+
+       angry       0.40      0.16      0.23       152
+     disgust       0.08      0.24      0.12        63
+        fear       0.06      0.17      0.09        46
+       happy       0.67      0.75      0.71       248
+         sad       0.25      0.40      0.30       134
+    surprise       0.25      0.18      0.21       144
+     neutral       0.55      0.32      0.41       430
+
+    accuracy                           0.37      1217
+   macro avg       0.32      0.32      0.30      1217
+weighted avg       0.45      0.37      0.39      1217
+
+
+[100/290] loss = 1.4837  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.2976 | Time: 301.0418s
+[200/290] loss = 1.2692  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.3694 | Time: 298.3301s
+Epo 3: accuracy = 0.5267 | f1_micro = 0.5267 | f1_macro = 0.5082 |
+Epo test  3: accuracy = 0.3258 | f1_micro = 0.3258 | f1_macro = 0.2843 |
+              precision    recall  f1-score   support
+
+       angry       0.32      0.22      0.26       152
+     disgust       0.11      0.13      0.12        63
+        fear       0.06      0.39      0.10        46
+       happy       0.77      0.59      0.67       248
+         sad       0.22      0.40      0.29       134
+    surprise       0.23      0.22      0.22       144
+     neutral       0.59      0.22      0.32       430
+
+    accuracy                           0.32      1217
+   macro avg       0.33      0.31      0.28      1217
+weighted avg       0.46      0.32      0.35      1217
+
+
+[100/290] loss = 1.7920  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.1447 | Time: 300.4202s
+[200/290] loss = 1.2882  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4024 | Time: 299.2728s
+Epo 4: accuracy = 0.5133 | f1_micro = 0.5133 | f1_macro = 0.4955 |
+Epo test  4: accuracy = 0.4090 | f1_micro = 0.4090 | f1_macro = 0.3329 |
+              precision    recall  f1-score   support
+
+       angry       0.27      0.39      0.32       152
+     disgust       0.10      0.13      0.11        63
+        fear       0.08      0.26      0.12        46
+       happy       0.70      0.71      0.70       248
+         sad       0.26      0.40      0.31       134
+    surprise       0.27      0.23      0.25       144
+     neutral       0.61      0.26      0.37       430
+
+    accuracy                           0.37      1217
+   macro avg       0.33      0.34      0.31      1217
+weighted avg       0.46      0.37      0.39      1217
+
+
+[I 2025-09-14 04:57:08,543] Trial 24 finished with value: 0.40898876404494383 and parameters: {'lr_layer4': 9.969659437387005e-08, 'wd_layer4': 2.26646467445479e-06, 'lr_rnn': 0.00018416476638302205, 'lr_clf': 0.00012981522368074285, 'weight_decay': 1.0020266286358869e-07, 'rnn_hidden': 256}. Best is trial 24 with value: 0.40898876404494383.
+
+[100/290] loss = 1.7683  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2429 | Time: 300.8688s
+[200/290] loss = 1.7047  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.4381 | Time: 298.4659s
+Epo 1: accuracy = 0.3733 | f1_micro = 0.3733 | f1_macro = 0.3375 |
+Epo test  1: accuracy = 0.3663 | f1_micro = 0.3663 | f1_macro = 0.2943 |
+              precision    recall  f1-score   support
+
+       angry       0.31      0.43      0.36       152
+     disgust       0.10      0.06      0.08        63
+        fear       0.26      0.11      0.15        46
+       happy       0.74      0.62      0.67       248
+         sad       0.24      0.44      0.31       134
+    surprise       0.23      0.35      0.28       144
+     neutral       0.56      0.35      0.43       430
+
+    accuracy                           0.40      1217
+   macro avg       0.35      0.34      0.33      1217
+weighted avg       0.45      0.40      0.41      1217
+
+
+[100/290] loss = 2.0276  | accuracy = 0.1250 | f1_micro = 0.1250 | f1_macro = 0.0974 | Time: 300.7177s
+[200/290] loss = 1.7585  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3531 | Time: 300.0806s
+Epo 2: accuracy = 0.3200 | f1_micro = 0.3200 | f1_macro = 0.2866 |
+Epo test  2: accuracy = 0.3798 | f1_micro = 0.3798 | f1_macro = 0.2988 |
+              precision    recall  f1-score   support
+
+       angry       0.27      0.45      0.34       152
+     disgust       0.16      0.08      0.11        63
+        fear       0.08      0.26      0.12        46
+       happy       0.63      0.75      0.69       248
+         sad       0.31      0.21      0.25       134
+    surprise       0.21      0.23      0.22       144
+     neutral       0.59      0.32      0.42       430
+
+    accuracy                           0.39      1217
+   macro avg       0.32      0.33      0.31      1217
+weighted avg       0.44      0.39      0.39      1217
+
+
+[100/290] loss = 1.6095  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4238 | Time: 299.8752s
+[200/290] loss = 1.4676  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.3762 | Time: 299.6754s
+Epo 3: accuracy = 0.4733 | f1_micro = 0.4733 | f1_macro = 0.4547 |
+Epo test  3: accuracy = 0.3663 | f1_micro = 0.3663 | f1_macro = 0.3111 |
+              precision    recall  f1-score   support
+
+       angry       0.36      0.33      0.34       152
+     disgust       0.09      0.19      0.12        63
+        fear       0.09      0.24      0.13        46
+       happy       0.63      0.77      0.69       248
+         sad       0.23      0.34      0.27       134
+    surprise       0.22      0.22      0.22       144
+     neutral       0.62      0.25      0.35       430
+
+    accuracy                           0.37      1217
+   macro avg       0.32      0.33      0.30      1217
+weighted avg       0.45      0.37      0.38      1217
+
+
+[100/290] loss = 1.6327  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3571 | Time: 300.3135s
+[200/290] loss = 1.5078  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.3510 | Time: 299.5310s
+Epo 4: accuracy = 0.5067 | f1_micro = 0.5067 | f1_macro = 0.4826 |
+Epo test  4: accuracy = 0.3596 | f1_micro = 0.3596 | f1_macro = 0.3171 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.39      0.34       152
+     disgust       0.14      0.24      0.18        63
+        fear       0.07      0.20      0.10        46
+       happy       0.71      0.65      0.68       248
+         sad       0.25      0.33      0.28       134
+    surprise       0.21      0.32      0.26       144
+     neutral       0.60      0.23      0.34       430
+
+    accuracy                           0.36      1217
+   macro avg       0.33      0.34      0.31      1217
+weighted avg       0.46      0.36      0.37      1217
+
+
+[I 2025-09-14 05:59:38,245] Trial 25 finished with value: 0.3595505617977528 and parameters: {'lr_layer4': 1.2998208581713064e-06, 'wd_layer4': 8.913491098357626e-06, 'lr_rnn': 0.0001466186384195673, 'lr_clf': 0.00014439412208113071, 'weight_decay': 1.0148568554341032e-07, 'rnn_hidden': 256}. Best is trial 24 with value: 0.40898876404494383.
+
+[100/290] loss = 1.7884  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.2714 | Time: 301.3542s
+[200/290] loss = 1.6859  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3861 | Time: 300.8195s
+Epo 1: accuracy = 0.4533 | f1_micro = 0.4533 | f1_macro = 0.4331 |
+Epo test  1: accuracy = 0.4427 | f1_micro = 0.4427 | f1_macro = 0.3273 |
+              precision    recall  f1-score   support
+
+       angry       0.29      0.42      0.34       152
+     disgust       0.17      0.14      0.16        63
+        fear       0.14      0.17      0.16        46
+       happy       0.77      0.66      0.71       248
+         sad       0.29      0.35      0.32       134
+    surprise       0.25      0.27      0.26       144
+     neutral       0.55      0.46      0.50       430
+
+    accuracy                           0.43      1217
+   macro avg       0.35      0.35      0.35      1217
+weighted avg       0.46      0.43      0.44      1217
+
+
+[100/290] loss = 1.5741  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3837 | Time: 302.6909s
+[200/290] loss = 1.8672  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.1405 | Time: 301.2620s
+Epo 2: accuracy = 0.5467 | f1_micro = 0.5467 | f1_macro = 0.5023 |
+Epo test  2: accuracy = 0.3730 | f1_micro = 0.3730 | f1_macro = 0.3107 |
+              precision    recall  f1-score   support
+
+       angry       0.31      0.41      0.35       152
+     disgust       0.13      0.21      0.16        63
+        fear       0.12      0.28      0.17        46
+       happy       0.59      0.79      0.67       248
+         sad       0.25      0.30      0.27       134
+    surprise       0.30      0.24      0.27       144
+     neutral       0.61      0.30      0.40       430
+
+    accuracy                           0.40      1217
+   macro avg       0.33      0.36      0.33      1217
+weighted avg       0.45      0.40      0.40      1217
+
+
+[100/290] loss = 1.6406  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3519 | Time: 301.5728s
+[200/290] loss = 1.3647  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4810 | Time: 300.7929s
+Epo 3: accuracy = 0.4533 | f1_micro = 0.4533 | f1_macro = 0.4584 |
+Epo test  3: accuracy = 0.3416 | f1_micro = 0.3416 | f1_macro = 0.3019 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.41      0.35       152
+     disgust       0.10      0.25      0.14        63
+        fear       0.09      0.17      0.12        46
+       happy       0.72      0.56      0.63       248
+         sad       0.25      0.31      0.28       134
+    surprise       0.18      0.31      0.22       144
+     neutral       0.65      0.21      0.32       430
+
+    accuracy                           0.33      1217
+   macro avg       0.33      0.32      0.29      1217
+weighted avg       0.47      0.33      0.35      1217
+
+
+[100/290] loss = 0.9711  | accuracy = 0.8125 | f1_micro = 0.8125 | f1_macro = 0.7177 | Time: 300.5162s
+[200/290] loss = 1.3447  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.4714 | Time: 301.3427s
+Epo 4: accuracy = 0.6600 | f1_micro = 0.6600 | f1_macro = 0.6653 |
+Epo test  4: accuracy = 0.3685 | f1_micro = 0.3685 | f1_macro = 0.3111 |
+              precision    recall  f1-score   support
+
+       angry       0.32      0.39      0.36       152
+     disgust       0.13      0.29      0.18        63
+        fear       0.11      0.43      0.18        46
+       happy       0.68      0.71      0.69       248
+         sad       0.28      0.28      0.28       134
+    surprise       0.26      0.15      0.19       144
+     neutral       0.61      0.35      0.44       430
+
+    accuracy                           0.40      1217
+   macro avg       0.34      0.37      0.33      1217
+weighted avg       0.47      0.40      0.41      1217
+
+
+[I 2025-09-14 08:44:43,229] Trial 31 finished with value: 0.3685393258426966 and parameters: {'lr_layer4': 1.5816402854858222e-07, 'wd_layer4': 2.6655545109951298e-06, 'lr_rnn': 0.00041328935973438665, 'lr_clf': 0.0001992540688381346, 'weight_decay': 1.7629701216750852e-07, 'rnn_hidden': 256}. Best is trial 24 with value: 0.40898876404494383.
+
+[100/290] loss = 1.6988  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.3333 | Time: 302.9976s
+[200/290] loss = 1.7060  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3707 | Time: 301.1960s
+Epo 1: accuracy = 0.3533 | f1_micro = 0.3533 | f1_macro = 0.3246 |
+Epo test  1: accuracy = 0.4292 | f1_micro = 0.4292 | f1_macro = 0.3375 |
+              precision    recall  f1-score   support
+
+       angry       0.34      0.18      0.23       152
+     disgust       0.09      0.27      0.14        63
+        fear       0.06      0.13      0.08        46
+       happy       0.70      0.72      0.71       248
+         sad       0.28      0.35      0.31       134
+    surprise       0.23      0.27      0.25       144
+     neutral       0.57      0.35      0.43       430
+
+    accuracy                           0.38      1217
+   macro avg       0.33      0.32      0.31      1217
+weighted avg       0.45      0.38      0.40      1217
+
+
+[100/290] loss = 1.3163  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.4844 | Time: 300.0231s
+[200/290] loss = 1.6093  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.3738 | Time: 302.9451s
+Epo 2: accuracy = 0.5333 | f1_micro = 0.5333 | f1_macro = 0.5053 |
+Epo test  2: accuracy = 0.4629 | f1_micro = 0.4629 | f1_macro = 0.3558 |
+              precision    recall  f1-score   support
+
+       angry       0.39      0.14      0.21       152
+     disgust       0.10      0.32      0.15        63
+        fear       0.13      0.09      0.11        46
+       happy       0.72      0.72      0.72       248
+         sad       0.32      0.25      0.28       134
+    surprise       0.35      0.18      0.24       144
+     neutral       0.51      0.60      0.55       430
+
+    accuracy                           0.45      1217
+   macro avg       0.36      0.33      0.32      1217
+weighted avg       0.46      0.45      0.44      1217
+
+
+[100/290] loss = 1.1981  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.5794 | Time: 301.3630s
+[200/290] loss = 1.3165  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.6429 | Time: 300.8776s
+Epo 3: accuracy = 0.6000 | f1_micro = 0.6000 | f1_macro = 0.5960 |
+Epo test  3: accuracy = 0.3753 | f1_micro = 0.3753 | f1_macro = 0.3087 |
+              precision    recall  f1-score   support
+
+       angry       0.36      0.33      0.34       152
+     disgust       0.09      0.25      0.13        63
+        fear       0.10      0.20      0.13        46
+       happy       0.63      0.72      0.67       248
+         sad       0.29      0.29      0.29       134
+    surprise       0.20      0.17      0.19       144
+     neutral       0.58      0.36      0.44       430
+
+    accuracy                           0.39      1217
+   macro avg       0.32      0.33      0.31      1217
+weighted avg       0.44      0.39      0.40      1217
+
+
+[100/290] loss = 1.1743  | accuracy = 0.6250 | f1_micro = 0.6250 | f1_macro = 0.4444 | Time: 303.0007s
+[200/290] loss = 0.9165  | accuracy = 0.7500 | f1_micro = 0.7500 | f1_macro = 0.7102 | Time: 300.8656s
+Epo 4: accuracy = 0.6133 | f1_micro = 0.6133 | f1_macro = 0.6001 |
+Epo test  4: accuracy = 0.3820 | f1_micro = 0.3820 | f1_macro = 0.3315 |
+              precision    recall  f1-score   support
+
+       angry       0.31      0.39      0.35       152
+     disgust       0.15      0.29      0.19        63
+        fear       0.09      0.41      0.15        46
+       happy       0.72      0.62      0.67       248
+         sad       0.28      0.35      0.31       134
+    surprise       0.31      0.24      0.27       144
+     neutral       0.57      0.26      0.36       430
+
+    accuracy                           0.37      1217
+   macro avg       0.35      0.37      0.33      1217
+weighted avg       0.47      0.37      0.39      1217
+
+
+[I 2025-09-14 10:03:30,333] Trial 33 finished with value: 0.38202247191011235 and parameters: {'lr_layer4': 5.006117523398713e-08, 'wd_layer4': 4.7385963461179315e-06, 'lr_rnn': 0.0003372174516494565, 'lr_clf': 0.0007035490571372563, 'weight_decay': 1.5973016758546887e-07, 'rnn_hidden': 256}. Best is trial 24 with value: 0.40898876404494383.
+
+[100/290] loss = 1.5694  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4116 | Time: 300.6740s
+[200/290] loss = 1.6470  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.3429 | Time: 300.5560s
+Epo 1: accuracy = 0.4733 | f1_micro = 0.4733 | f1_macro = 0.4595 |
+Epo test  1: accuracy = 0.4584 | f1_micro = 0.4584 | f1_macro = 0.3568 |
+              precision    recall  f1-score   support
+
+       angry       0.34      0.28      0.31       152
+     disgust       0.12      0.27      0.16        63
+        fear       0.14      0.07      0.09        46
+       happy       0.70      0.72      0.71       248
+         sad       0.28      0.31      0.29       134
+    surprise       0.25      0.23      0.24       144
+     neutral       0.55      0.50      0.52       430
+
+    accuracy                           0.43      1217
+   macro avg       0.34      0.34      0.33      1217
+weighted avg       0.45      0.43      0.44      1217
+
+
+[100/290] loss = 1.3949  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.3194 | Time: 300.9971s
+[200/290] loss = 1.7264  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3143 | Time: 300.4577s
+Epo 2: accuracy = 0.5467 | f1_micro = 0.5467 | f1_macro = 0.5125 |
+Epo test  2: accuracy = 0.3730 | f1_micro = 0.3730 | f1_macro = 0.3162 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.52      0.38       152
+     disgust       0.09      0.14      0.11        63
+        fear       0.11      0.20      0.14        46
+       happy       0.65      0.74      0.69       248
+         sad       0.23      0.46      0.31       134
+    surprise       0.29      0.21      0.24       144
+     neutral       0.59      0.17      0.26       430
+
+    accuracy                           0.36      1217
+   macro avg       0.32      0.35      0.30      1217
+weighted avg       0.45      0.36      0.35      1217
+
+
+[100/290] loss = 1.3053  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.4310 | Time: 301.1600s
+[200/290] loss = 1.3646  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.4111 | Time: 300.9974s
+Epo 3: accuracy = 0.5600 | f1_micro = 0.5600 | f1_macro = 0.5376 |
+Epo test  3: accuracy = 0.4157 | f1_micro = 0.4157 | f1_macro = 0.3189 |
+              precision    recall  f1-score   support
+
+       angry       0.39      0.29      0.33       152
+     disgust       0.15      0.19      0.17        63
+        fear       0.09      0.26      0.14        46
+       happy       0.68      0.73      0.71       248
+         sad       0.22      0.49      0.30       134
+    surprise       0.31      0.07      0.11       144
+     neutral       0.56      0.39      0.46       430
+
+    accuracy                           0.41      1217
+   macro avg       0.34      0.35      0.32      1217
+weighted avg       0.46      0.41      0.41      1217
+
+
+[100/290] loss = 1.3706  | accuracy = 0.5625 | f1_micro = 0.5625 | f1_macro = 0.5952 | Time: 300.7279s
+[200/290] loss = 1.2242  | accuracy = 0.6875 | f1_micro = 0.6875 | f1_macro = 0.5653 | Time: 301.2619s
+Epo 4: accuracy = 0.6467 | f1_micro = 0.6467 | f1_macro = 0.6398 |
+Epo test  4: accuracy = 0.3865 | f1_micro = 0.3865 | f1_macro = 0.3092 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.47      0.37       152
+     disgust       0.12      0.25      0.16        63
+        fear       0.10      0.24      0.14        46
+       happy       0.69      0.66      0.67       248
+         sad       0.25      0.34      0.29       134
+    surprise       0.27      0.12      0.17       144
+     neutral       0.60      0.35      0.44       430
+
+    accuracy                           0.39      1217
+   macro avg       0.33      0.35      0.32      1217
+weighted avg       0.46      0.39      0.41      1217
+
+
+[I 2025-09-14 11:06:26,883] Trial 34 finished with value: 0.3865168539325843 and parameters: {'lr_layer4': 5.411461984872027e-08, 'wd_layer4': 6.586106628944058e-06, 'lr_rnn': 0.0003822452157932239, 'lr_clf': 0.0006098530745047354, 'weight_decay': 1.7931742155083064e-07, 'rnn_hidden': 256}. Best is trial 24 with value: 0.40898876404494383.
+
+[100/290] loss = 1.8808  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.3802 | Time: 301.2130s
+[200/290] loss = 1.9093  | accuracy = 0.0625 | f1_micro = 0.0625 | f1_macro = 0.0476 | Time: 300.8126s
+Epo 1: accuracy = 0.3800 | f1_micro = 0.3800 | f1_macro = 0.3565 |
+Epo test  1: accuracy = 0.3955 | f1_micro = 0.3955 | f1_macro = 0.3190 |
+              precision    recall  f1-score   support
+
+       angry       0.35      0.18      0.23       152
+     disgust       0.09      0.10      0.09        63
+        fear       0.10      0.17      0.12        46
+       happy       0.59      0.78      0.67       248
+         sad       0.24      0.54      0.33       134
+    surprise       0.25      0.19      0.21       144
+     neutral       0.53      0.29      0.38       430
+
+    accuracy                           0.38      1217
+   macro avg       0.30      0.32      0.29      1217
+weighted avg       0.41      0.38      0.37      1217
+
+
+[100/290] loss = 1.7286  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2662 | Time: 302.8994s
+[200/290] loss = 1.6379  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2204 | Time: 301.6924s
+Epo 2: accuracy = 0.4467 | f1_micro = 0.4467 | f1_macro = 0.3735 |
+Epo test  2: accuracy = 0.3798 | f1_micro = 0.3798 | f1_macro = 0.3039 |
+              precision    recall  f1-score   support
+
+       angry       0.28      0.37      0.32       152
+     disgust       0.09      0.05      0.06        63
+        fear       0.12      0.11      0.12        46
+       happy       0.61      0.78      0.68       248
+         sad       0.24      0.55      0.34       134
+    surprise       0.22      0.28      0.25       144
+     neutral       0.65      0.21      0.32       430
+
+    accuracy                           0.38      1217
+   macro avg       0.32      0.34      0.30      1217
+weighted avg       0.45      0.38      0.37      1217
+
+
+[100/290] loss = 1.6523  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.1745 | Time: 302.3253s
+[200/290] loss = 1.6958  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2857 | Time: 300.6367s
+Epo 3: accuracy = 0.3200 | f1_micro = 0.3200 | f1_macro = 0.3084 |
+Epo test  3: accuracy = 0.3753 | f1_micro = 0.3753 | f1_macro = 0.2947 |
+              precision    recall  f1-score   support
+
+       angry       0.33      0.41      0.37       152
+     disgust       0.09      0.22      0.13        63
+        fear       0.13      0.09      0.10        46
+       happy       0.65      0.74      0.69       248
+         sad       0.27      0.36      0.31       134
+    surprise       0.26      0.26      0.26       144
+     neutral       0.56      0.32      0.41       430
+
+    accuracy                           0.40      1217
+   macro avg       0.33      0.34      0.32      1217
+weighted avg       0.44      0.40      0.41      1217
+
+
+[100/290] loss = 1.6220  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.2789 | Time: 300.5549s
+[200/290] loss = 1.4273  | accuracy = 0.4375 | f1_micro = 0.4375 | f1_macro = 0.2867 | Time: 300.9610s
+Epo 4: accuracy = 0.4267 | f1_micro = 0.4267 | f1_macro = 0.4114 |
+Epo test  4: accuracy = 0.3596 | f1_micro = 0.3596 | f1_macro = 0.2989 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.41      0.34       152
+     disgust       0.09      0.08      0.09        63
+        fear       0.08      0.20      0.11        46
+       happy       0.66      0.75      0.70       248
+         sad       0.25      0.40      0.31       134
+    surprise       0.22      0.29      0.25       144
+     neutral       0.66      0.23      0.35       430
+
+    accuracy                           0.38      1217
+   macro avg       0.32      0.34      0.31      1217
+weighted avg       0.47      0.38      0.38      1217
+
+
+[I 2025-09-14 12:09:23,764] Trial 35 finished with value: 0.3595505617977528 and parameters: {'lr_layer4': 8.135728624166245e-08, 'wd_layer4': 4.819029884665845e-06, 'lr_rnn': 9.552405822268094e-05, 'lr_clf': 1.674829430780113e-05, 'weight_decay': 2.1652438516922038e-07, 'rnn_hidden': 256}. Best is trial 24 with value: 0.40898876404494383.
+
+[100/290] loss = 1.9005  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.1806 | Time: 302.4627s
+[200/290] loss = 1.8838  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.1143 | Time: 302.4639s
+Epo 1: accuracy = 0.3800 | f1_micro = 0.3800 | f1_macro = 0.3370 |
+Epo test  1: accuracy = 0.3978 | f1_micro = 0.3978 | f1_macro = 0.2898 |
+              precision    recall  f1-score   support
+
+       angry       0.28      0.37      0.32       152
+     disgust       0.04      0.05      0.05        63
+        fear       0.02      0.02      0.02        46
+       happy       0.58      0.81      0.67       248
+         sad       0.26      0.28      0.27       134
+    surprise       0.20      0.28      0.24       144
+     neutral       0.49      0.24      0.32       430
+
+    accuracy                           0.36      1217
+   macro avg       0.27      0.29      0.27      1217
+weighted avg       0.38      0.36      0.35      1217
+
+
+[100/290] loss = 1.8061  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2245 | Time: 301.9780s
+[200/290] loss = 1.8987  | accuracy = 0.1875 | f1_micro = 0.1875 | f1_macro = 0.1361 | Time: 300.4899s
+Epo 2: accuracy = 0.3667 | f1_micro = 0.3667 | f1_macro = 0.3574 |
+Epo test  2: accuracy = 0.3461 | f1_micro = 0.3461 | f1_macro = 0.2829 |
+              precision    recall  f1-score   support
+
+       angry       0.30      0.45      0.36       152
+     disgust       0.07      0.08      0.07        63
+        fear       0.08      0.20      0.11        46
+       happy       0.63      0.75      0.69       248
+         sad       0.25      0.28      0.26       134
+    surprise       0.20      0.28      0.23       144
+     neutral       0.62      0.22      0.33       430
+
+    accuracy                           0.36      1217
+   macro avg       0.31      0.32      0.29      1217
+weighted avg       0.44      0.36      0.37      1217
+
+
+[100/290] loss = 1.6760  | accuracy = 0.3125 | f1_micro = 0.3125 | f1_macro = 0.2347 | Time: 301.3455s
+[200/290] loss = 1.7922  | accuracy = 0.2500 | f1_micro = 0.2500 | f1_macro = 0.2714 | Time: 302.5853s
+Epo 3: accuracy = 0.3067 | f1_micro = 0.3067 | f1_macro = 0.2962 |
+Epo test  3: accuracy = 0.4022 | f1_micro = 0.4022 | f1_macro = 0.3463 |
+              precision    recall  f1-score   support
+
+       angry       0.33      0.31      0.32       152
+     disgust       0.11      0.10      0.10        63
+        fear       0.07      0.20      0.10        46
+       happy       0.71      0.72      0.71       248
+         sad       0.23      0.49      0.32       134
+    surprise       0.21      0.31      0.25       144
+     neutral       0.64      0.21      0.32       430
+
+    accuracy                           0.36      1217
+   macro avg       0.33      0.33      0.30      1217
+weighted avg       0.47      0.36      0.37      1217
+
+
+[100/290] loss = 1.7619  | accuracy = 0.5000 | f1_micro = 0.5000 | f1_macro = 0.3418 | Time: 303.1000s
+[200/290] loss = 1.6203  | accuracy = 0.3750 | f1_micro = 0.3750 | f1_macro = 0.3048 | Time: 302.8083s
+Epo 4: accuracy = 0.4000 | f1_micro = 0.4000 | f1_macro = 0.3584 |
+Epo test  4: accuracy = 0.3663 | f1_micro = 0.3663 | f1_macro = 0.2794 |
+              precision    recall  f1-score   support
+
+       angry       0.31      0.34      0.33       152
+     disgust       0.12      0.08      0.09        63
+        fear       0.07      0.17      0.10        46
+       happy       0.67      0.73      0.70       248
+         sad       0.22      0.48      0.30       134
+    surprise       0.23      0.30      0.26       144
+     neutral       0.64      0.23      0.33       430
+
+    accuracy                           0.37      1217
+   macro avg       0.32      0.33      0.30      1217
+weighted avg       0.46      0.37      0.37      1217
+
+
+[I 2025-09-14 14:21:03,797] Trial 40 finished with value: 0.36629213483146067 and parameters: {'lr_layer4': 6.279099574259083e-06, 'wd_layer4': 6.564408247962404e-06, 'lr_rnn': 2.3726767062285668e-05, 'lr_clf': 0.0004864426718956824, 'weight_decay': 3.548595730290626e-07, 'rnn_hidden': 256}. Best is trial 24 with value: 0.40898876404494383.
+
+
